@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+#root {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px;
+}
+
+#root div {
+	border: 1px solid black;
+	padding: 1rem;
+	width: calc(100% / 3 - 10px);
+	margin: 5px;
+	text-align: center;
+	background-color: olive;
+	color: white;
+	cursor: pointer;
+}
+
+#root > div.light {
+	border: 1px solid olive;
+	background-color: white;
+	color: olive;
+}
